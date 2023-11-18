@@ -77,7 +77,7 @@ function sayHello() {}
 const sayHello = () => {} // arrow functions
 ```
 
-- []()
+- [Inferir tipos y modo estricto]()
 - []()
 - []()
 - []()
@@ -86,3 +86,4 @@ const sayHello = () => {} // arrow functions
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [Documentación oficial de typescript](https://www.typescriptlang.org/docs/)
+- [Tipos de datos en TypeScript](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
