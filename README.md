@@ -32,17 +32,20 @@ Instala typescript de forma global:
 ```sh
 npm install -g typescript
 tsc --version
+
+tsc --init // Crear el archivo TSConfig.json
+tsc // Compilar automáticamente todos los .ts a .js
 ```
 
 _tsc_: es un transpilador (convierte typescript en javascript).
 
-- [Hola Mundo en Typescript]()
+- [Hola Mundo en TypeScript]()
+- [Modo observador]()
 
 ```sh
-tsc app.ts
+tsc --watch // o tsc -w
 ```
 
-- []()
 - []()
 - []()
 - []()
