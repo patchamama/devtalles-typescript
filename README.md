@@ -58,6 +58,7 @@ age = null
 otro = undefined
 sym = Symbol()
 sym2 = Symbol('myProperty') // cuando se tiene un propiedad en un objeto que se desea que tenga un espacio en memoria diferente
+NaN // es considerado un number
 
 // Diccionario
 person = {
@@ -79,7 +80,7 @@ const sayHello = () => {} // arrow functions
 
 - [Inferir tipos y modo estricto]()
 - [Booleans - Booleanos]()
-- []()
+- [Numbers]()
 - []()
 
 #### Recursos
