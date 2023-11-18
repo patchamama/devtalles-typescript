@@ -1,24 +1,33 @@
 # devtalles-typescript
 
-## Description
+## devTalles - TypeScript: Tu completa guía y manual de mano
 
-## Installation
+_https://cursos.devtalles.com/courses/take/typescript-guia-completa_
 
-## Usage
+## Descripción
 
-## Contributing
+Mis notas personales del _[TypeScript: Tu completa guía y manual de mano)](https://cursos.devtalles.com/courses/take/typescript-guia-completa)_ brindado por _Fernando Herrera_.
 
-## License
+## Tabla de contenidos
 
-## Project status
+- [devtalles-typescript](#devtalles-typescript)
+  - [devTalles - TypeScript: Tu completa guía y manual de mano](#devtalles---typescript-tu-completa-guía-y-manual-de-mano)
+  - [Descripción](#descripción)
+  - [Tabla de contenidos](#tabla-de-contenidos)
+  - [Secciones](#secciones)
+    - [Sección 1: Introducción a TypeScript](#sección-1-introducción-a-typescript)
 
-## Author
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-## Acknowledgements
+## Secciones
 
-## Contact
+### Sección 1: Introducción a TypeScript
 
-## Project link
-
-## Project dependencies
-
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
