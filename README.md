@@ -17,6 +17,7 @@ Mis notas personales del _[TypeScript: Tu completa guía y manual de mano)](http
   - [Secciones](#secciones)
     - [Sección 1: Introducción a TypeScript](#sección-1-introducción-a-typescript)
     - [Sección 2: Introducción a TypeScript](#sección-2-introducción-a-typescript)
+    - [Sección 3: Tipos básicos](#sección-3-tipos-básicos)
       - [Recursos](#recursos)
 
 ## Secciones
@@ -45,6 +46,8 @@ _tsc_: es un transpilador (convierte typescript en javascript).
 ```sh
 tsc --watch // o tsc -w
 ```
+
+### Sección 3: Tipos básicos
 
 - []()
 - []()
