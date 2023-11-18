@@ -16,16 +16,39 @@ Mis notas personales del _[TypeScript: Tu completa guía y manual de mano)](http
   - [Tabla de contenidos](#tabla-de-contenidos)
   - [Secciones](#secciones)
     - [Sección 1: Introducción a TypeScript](#sección-1-introducción-a-typescript)
+    - [Sección 2: Introducción a TypeScript](#sección-2-introducción-a-typescript)
+      - [Recursos](#recursos)
 
 ## Secciones
 
 ### Sección 1: Introducción a TypeScript
 
+- [Instalaciones recomendadas](https://gist.github.com/Klerith/384b707f9b08698655280a3d4cc4da12)
+
+### Sección 2: Introducción a TypeScript
+
+Instala typescript de forma global:
+
+```sh
+npm install -g typescript
+tsc --version
+```
+
+_tsc_: es un transpilador (convierte typescript en javascript).
+
+- [Hola Mundo en Typescript]()
+
+```sh
+tsc app.ts
+```
+
 - []()
 - []()
 - []()
 - []()
 - []()
-- []()
-- []()
-- []()
+
+#### Recursos
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [Documentación oficial de typescript](https://www.typescriptlang.org/docs/)
