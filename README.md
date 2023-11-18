@@ -17,8 +17,6 @@ Mis notas personales del _[TypeScript: Tu completa guía y manual de mano)](http
   - [Secciones](#secciones)
     - [Sección 1: Introducción a TypeScript](#sección-1-introducción-a-typescript)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 ## Secciones
 
 ### Sección 1: Introducción a TypeScript
