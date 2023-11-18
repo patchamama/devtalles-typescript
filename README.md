@@ -78,7 +78,7 @@ const sayHello = () => {} // arrow functions
 ```
 
 - [Inferir tipos y modo estricto]()
-- []()
+- [Booleans - Booleanos]()
 - []()
 - []()
 
