@@ -49,6 +49,34 @@ tsc --watch // o tsc -w
 
 ### Sección 3: Tipos básicos
 
+- [Introducción a los tipos de datos]()
+  **JavaScript tipos**: primitivos (`String, Number, Boolean, Symbol`), compuestos/objetos (`Objetos literales, Funciones, Clases, Arreglos`)
+
+```js
+// algunos tipos
+age = null
+otro = undefined
+sym = Symbol()
+sym2 = Symbol('myProperty') // cuando se tiene un propiedad en un objeto que se desea que tenga un espacio en memoria diferente
+
+// Diccionario
+person = {
+  name: 'Fernando',
+  Age: 35,
+}
+
+// Clases
+class Person {
+  name
+  age
+}
+
+// funciones
+function sayHello() {}
+
+const sayHello = () => {} // arrow functions
+```
+
 - []()
 - []()
 - []()
