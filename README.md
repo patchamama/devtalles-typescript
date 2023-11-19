@@ -66,6 +66,12 @@ console.log((avenger as string).charAt(0)) // casting as string
 console.log(avenger.toFixed(2))
 console.log(<number>avenger.toFixed(2)) // casting as number
 
+let nada: undefined = undefined
+let nulo: null = null
+// null != undefined
+console.log(nada)
+let isActive: (boolean | undefined) = undefined
+
  // Tupla de dos valores que en js es un array
 const hero: [string, number] = ['Dr. Strange', 100]
 hero[0] = 'Ironman'
@@ -133,7 +139,7 @@ error('Auxilio!!')
 - [Enum - Enumeraciones]()
 - [Void - Vacío]()
 - [Never - Nunca]()
-- []()
+- [Null y Undefined]()
 - []()
 - []()
 
