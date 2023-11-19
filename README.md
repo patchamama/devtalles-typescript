@@ -77,8 +77,8 @@ npm install
 npm run dev
 ```
 
-- []()
-- []()
+- [Tipos básicos y conceptos generales]()
+- [Objetos, arreglos e interfaces]()
 - []()
 - []()
 - []()
@@ -179,6 +179,29 @@ const abc = (message: string): never | number => {
   return 1
 }
 error('Auxilio!!')
+
+// Interfaces
+
+interface Character {
+  name: string
+  hp: number
+  skills: string[]
+  other?: string
+  hometown: string | undefined
+}
+
+const strider: Character = {
+  name: 'Strider',
+  hp: 100,
+  skills: ['Bash', 'Counter', 'Healing'],
+  // other: 'test'
+  hometown: undefined,
+}
+
+strider.hp = 95
+strider.skills.push('Fire')
+strider.other = 'test'
+strider.hometown = 'Gondor'
 
 //-------
 // Ejemplo de resolución de tarea de ejercicio #1
