@@ -89,6 +89,14 @@ const sayHello = () => {} // arrow functions
 - [Numbers - Números]()
 - [Strings - Cadenas de caracteres]()
 - [Tipo Any]()
+- [Arrays - Arreglos]()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
 
 #### Recursos
 
