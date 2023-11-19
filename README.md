@@ -49,7 +49,20 @@ tsc --watch // o tsc -w
 
 ### Sección 3: Tipos básicos
 
-- [Introducción a los tipos de datos]()
+- [Introducción a los tipos de datos](https://github.com/patchamama/devtalles-typescript/commit/7be78ef995d8c434a45a1823c3973b8dfe1ae889)
+- [Inferir tipos y modo estricto](https://github.com/patchamama/devtalles-typescript/blob/af9114e5f21f70918c04aaebaf517d7e8412a256/bases/app.ts)
+- [Booleans - Booleanos](https://github.com/patchamama/devtalles-typescript/blob/main/bases/tipos/booleans.ts)
+- [Numbers - Números](https://github.com/patchamama/devtalles-typescript/blob/main/bases/tipos/numbers.ts)
+- [Strings - Cadenas de caracteres](https://github.com/patchamama/devtalles-typescript/blob/main/bases/tipos/strings.ts)
+- [Tipo Any](https://github.com/patchamama/devtalles-typescript/blob/main/bases/tipos/any.ts)
+- [Arrays - Arreglos](https://github.com/patchamama/devtalles-typescript/blob/main/bases/tipos/arrays.ts)
+- [Tuples - Tuplas](https://github.com/patchamama/devtalles-typescript/blob/main/bases/tipos/tuples.ts)
+- [Enum - Enumeraciones](https://github.com/patchamama/devtalles-typescript/blob/main/bases/tipos/enums.ts)
+- [Void - Vacío](https://github.com/patchamama/devtalles-typescript/blob/main/bases/tipos/void.ts)
+- [Never - Nunca](https://github.com/patchamama/devtalles-typescript/blob/main/bases/tipos/never.ts)
+- [Null y Undefined](https://github.com/patchamama/devtalles-typescript/blob/main/bases/tipos/null-undefined.ts)
+- [Tarea y Resolución del Ejercicio #1](https://github.com/patchamama/devtalles-typescript/blob/main/bases/app.ts)
+
   **JavaScript tipos**: primitivos (`String, Number, Boolean, Symbol`), compuestos/objetos (`Objetos literales, Funciones, Clases, Arreglos`)
 
 ```javascript
@@ -65,6 +78,8 @@ let avenger: any = 123
 console.log((avenger as string).charAt(0)) // casting as string
 console.log(avenger.toFixed(2))
 console.log(<number>avenger.toFixed(2)) // casting as number
+// Esto es correcto, pues un array también es un any
+let arr:any = [1,2,3,4,5,6,7,8,9,10];
 
 let nada: undefined = undefined
 let nulo: null = null
@@ -178,20 +193,6 @@ error('Auxilio!!')
   console.log({ poder, largoDelPoder, largoDelPoder1 })
 })()
 ```
-
-- [Inferir tipos y modo estricto]()
-- [Booleans - Booleanos]()
-- [Numbers - Números]()
-- [Strings - Cadenas de caracteres]()
-- [Tipo Any]()
-- [Arrays - Arreglos]()
-- [Tuples - Tuplas]()
-- [Enum - Enumeraciones]()
-- [Void - Vacío]()
-- [Never - Nunca]()
-- [Null y Undefined]()
-- [Tarea y Resolución del Ejercicio #1]()
-- []()
 
 #### Recursos
 
