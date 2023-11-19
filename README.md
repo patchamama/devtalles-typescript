@@ -79,9 +79,9 @@ npm run dev
 
 - [Tipos básicos y conceptos generales]()
 - [Objetos, arreglos e interfaces]()
-- []()
-- []()
-- []()
+- [Funciones básicas]()
+- [Funciones con objetos como argumentos]()
+- [Tarea sobre objetos e interfaces]() Código de la tarea [aquí](https://gist.github.com/Klerith/0f7001ef92bbb4e8be16e07e1d710c48)
 - []()
 - []()
 - []()
