@@ -60,6 +60,12 @@ sym = Symbol()
 sym2 = Symbol('myProperty') // cuando se tiene un propiedad en un objeto que se desea que tenga un espacio en memoria diferente
 NaN // es considerado un number
 
+// tipo Any mejor nunca usarlo pues se pierde el testeo por el tipado
+let avenger: any = 123
+console.log((avenger as string).charAt(0)) // casting as string
+console.log(avenger.toFixed(2))
+console.log(<number>avenger.toFixed(2)) // casting as number
+
 // Diccionario
 person = {
   name: 'Fernando',
@@ -80,8 +86,9 @@ const sayHello = () => {} // arrow functions
 
 - [Inferir tipos y modo estricto]()
 - [Booleans - Booleanos]()
-- [Numbers]()
-- []()
+- [Numbers - Números]()
+- [Strings - Cadenas de caracteres]()
+- [Tipo Any]()
 
 #### Recursos
 
