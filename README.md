@@ -52,7 +52,7 @@ tsc --watch // o tsc -w
 - [Introducción a los tipos de datos]()
   **JavaScript tipos**: primitivos (`String, Number, Boolean, Symbol`), compuestos/objetos (`Objetos literales, Funciones, Clases, Arreglos`)
 
-```js
+```javascript
 // algunos tipos
 age = null
 otro = undefined
@@ -65,6 +65,14 @@ let avenger: any = 123
 console.log((avenger as string).charAt(0)) // casting as string
 console.log(avenger.toFixed(2))
 console.log(<number>avenger.toFixed(2)) // casting as number
+
+ // Tupla de dos valores que en js es un array
+const hero: [string, number] = ['Dr. Strange', 100]
+
+hero[0] = 'Ironman'
+hero[1] = 20
+
+console.log(hero)
 
 // Diccionario
 person = {
@@ -90,7 +98,7 @@ const sayHello = () => {} // arrow functions
 - [Strings - Cadenas de caracteres]()
 - [Tipo Any]()
 - [Arrays - Arreglos]()
-- []()
+- [Tuples - Tuplas]()
 - []()
 - []()
 - []()
