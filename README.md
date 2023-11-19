@@ -14,19 +14,16 @@ Mis notas personales del _[TypeScript: Tu completa guía y manual de mano)](http
   - [devTalles - TypeScript: Tu completa guía y manual de mano](#devtalles---typescript-tu-completa-guía-y-manual-de-mano)
   - [Descripción](#descripción)
   - [Tabla de contenidos](#tabla-de-contenidos)
-  - [Secciones](#secciones)
-    - [Sección 1: Introducción a TypeScript](#sección-1-introducción-a-typescript)
-    - [Sección 2: Introducción a TypeScript](#sección-2-introducción-a-typescript)
-    - [Sección 3: Tipos básicos](#sección-3-tipos-básicos)
-      - [Recursos](#recursos)
+  - [Sección 1: Introducción a TypeScript](#sección-1-introducción-a-typescript)
+  - [Sección 2: Introducción a TypeScript](#sección-2-introducción-a-typescript)
+  - [Sección 3: Tipos básicos](#sección-3-tipos-básicos)
+  - [Recursos](#recursos)
 
-## Secciones
-
-### Sección 1: Introducción a TypeScript
+## Sección 1: Introducción a TypeScript
 
 - [Instalaciones recomendadas](https://gist.github.com/Klerith/384b707f9b08698655280a3d4cc4da12)
 
-### Sección 2: Introducción a TypeScript
+## Sección 2: Introducción a TypeScript
 
 Instala typescript de forma global:
 
@@ -47,7 +44,7 @@ _tsc_: es un transpilador (convierte typescript en javascript).
 tsc --watch // o tsc -w
 ```
 
-### Sección 3: Tipos básicos
+## Sección 3: Tipos básicos
 
 - [Introducción a los tipos de datos](https://github.com/patchamama/devtalles-typescript/commit/7be78ef995d8c434a45a1823c3973b8dfe1ae889)
 - [Inferir tipos y modo estricto](https://github.com/patchamama/devtalles-typescript/blob/af9114e5f21f70918c04aaebaf517d7e8412a256/bases/app.ts)
@@ -194,7 +191,7 @@ error('Auxilio!!')
 })()
 ```
 
-#### Recursos
+## Recursos
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [Documentación oficial de typescript](https://www.typescriptlang.org/docs/)
