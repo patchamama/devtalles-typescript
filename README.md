@@ -17,6 +17,8 @@ Mis notas personales del _[TypeScript: Tu completa guía y manual de mano)](http
   - [Sección 1: Introducción a TypeScript](#sección-1-introducción-a-typescript)
   - [Sección 2: Introducción a TypeScript](#sección-2-introducción-a-typescript)
   - [Sección 3: Tipos básicos](#sección-3-tipos-básicos)
+  - [Angular de cero a experto - Edición 2023](#angular-de-cero-a-experto---edición-2023)
+    - [Sección 3: Bases de TypeScript - Recomendado](#sección-3-bases-de-typescript---recomendado)
   - [Recursos](#recursos)
 
 ## Sección 1: Introducción a TypeScript
@@ -59,6 +61,44 @@ tsc --watch // o tsc -w
 - [Never - Nunca](https://github.com/patchamama/devtalles-typescript/blob/main/bases/tipos/never.ts)
 - [Null y Undefined](https://github.com/patchamama/devtalles-typescript/blob/main/bases/tipos/null-undefined.ts)
 - [Tarea y Resolución del Ejercicio #1](https://github.com/patchamama/devtalles-typescript/blob/main/bases/app.ts)
+
+## Angular de cero a experto - Edición 2023
+
+### Sección 3: Bases de TypeScript - Recomendado
+
+_https://cursos.devtalles.com/courses/take/angular/lessons/41410397-inicio-de-proyecto-typescript_
+
+[Fuente de ejercicios online](https://stackblitz.com/edit/typescript-vxnz8z?file=index.ts)
+
+```sh
+npm create vite
+cd typescript-intro
+npm install
+npm run dev
+```
+
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+
+---
 
 **JavaScript tipos**: primitivos (`String, Number, Boolean, Symbol`), compuestos/objetos (`Objetos literales, Funciones, Clases, Arreglos`)
 
