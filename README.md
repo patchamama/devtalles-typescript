@@ -32,13 +32,13 @@ npm install -g typescript
 tsc --version
 
 tsc --init // Crear el archivo TSConfig.json
-tsc // Compilar automáticamente todos los .ts a .js
+tsc -w // Compilar automáticamente todos los .ts a .js
 ```
 
 _tsc_: es un transpilador (convierte typescript en javascript).
 
-- [Hola Mundo en TypeScript]()
-- [Modo observador]()
+- [Hola Mundo en TypeScript]
+- [Modo observador]
 
 ```sh
 tsc --watch // o tsc -w
@@ -60,9 +60,9 @@ tsc --watch // o tsc -w
 - [Null y Undefined](https://github.com/patchamama/devtalles-typescript/blob/main/bases/tipos/null-undefined.ts)
 - [Tarea y Resolución del Ejercicio #1](https://github.com/patchamama/devtalles-typescript/blob/main/bases/app.ts)
 
-  **JavaScript tipos**: primitivos (`String, Number, Boolean, Symbol`), compuestos/objetos (`Objetos literales, Funciones, Clases, Arreglos`)
+**JavaScript tipos**: primitivos (`String, Number, Boolean, Symbol`), compuestos/objetos (`Objetos literales, Funciones, Clases, Arreglos`)
 
-```javascript
+```typescript
 // algunos tipos
 age = null
 otro = undefined
@@ -76,15 +76,15 @@ console.log((avenger as string).charAt(0)) // casting as string
 console.log(avenger.toFixed(2))
 console.log(<number>avenger.toFixed(2)) // casting as number
 // Esto es correcto, pues un array también es un any
-let arr:any = [1,2,3,4,5,6,7,8,9,10];
+let arr: any = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 let nada: undefined = undefined
 let nulo: null = null
 // null != undefined
 console.log(nada)
-let isActive: (boolean | undefined) = undefined
+let isActive: boolean | undefined = undefined
 
- // Tupla de dos valores que en js es un array
+// Tupla de dos valores que en js es un array
 const hero: [string, number] = ['Dr. Strange', 100]
 hero[0] = 'Ironman'
 hero[1] = 20
