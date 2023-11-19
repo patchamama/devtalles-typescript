@@ -68,11 +68,19 @@ console.log(<number>avenger.toFixed(2)) // casting as number
 
  // Tupla de dos valores que en js es un array
 const hero: [string, number] = ['Dr. Strange', 100]
-
 hero[0] = 'Ironman'
 hero[1] = 20
-
 console.log(hero)
+
+// tipo enum (enumeraciones)
+enum AudioLevel1 {
+  min = 1,
+  medium,
+  max = 10,
+}
+const currentAudio1: AudioLevel1 = AudioLevel1.medium
+console.log(currentAudio1)
+console.log(AudioLevel1)
 
 // Diccionario
 person = {
@@ -99,7 +107,7 @@ const sayHello = () => {} // arrow functions
 - [Tipo Any]()
 - [Arrays - Arreglos]()
 - [Tuples - Tuplas]()
-- []()
+- [Enum - Enumeraciones]()
 - []()
 - []()
 - []()
