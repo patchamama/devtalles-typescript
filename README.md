@@ -27,7 +27,7 @@ Mis notas personales del _[TypeScript: Tu completa guía y manual de mano)](http
 
 Instala typescript de forma global:
 
-```sh
+```bash
 npm install -g typescript
 tsc --version
 
@@ -40,7 +40,7 @@ _tsc_: es un transpilador (convierte typescript en javascript).
 - [Hola Mundo en TypeScript]
 - [Modo observador]
 
-```sh
+```bash
 tsc --watch // o tsc -w
 ```
 
