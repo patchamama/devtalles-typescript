@@ -18,7 +18,17 @@ export class Person {
   }
 }
 
-const ironman = new Person('Tony Stark', 'New York')
+export class Hero extends Person {
+  constructor(
+    public alterEgo: string,
+    public age: number,
+    public realName: string
+  ) {
+    super(alterEgo, 'New York') // Llamada al constructor de la clase padre Person con los parámetros
+  }
+}
+
+const ironman = new Hero('Tony Stark', 45, 'Tony')
 console.log(ironman.getName())
 console.log(ironman.getAddress())
 console.log(ironman)
