@@ -92,7 +92,7 @@ npm run dev
 - [Extender una clase]()
 - [Priorizar composición sobre herencia]()
 - [Genéricos]()
-- []()
+- [Decoradores]()
 - []()
 - []()
 - []()
@@ -259,3 +259,4 @@ strider.hometown = 'Gondor'
 - [TypeScript](https://www.typescriptlang.org/)
 - [Documentación oficial de typescript](https://www.typescriptlang.org/docs/)
 - [Tipos de datos en TypeScript](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
+- [TypeScript Docs - Decorators](https://www.typescriptlang.org/docs/handbook/decorators.html)
