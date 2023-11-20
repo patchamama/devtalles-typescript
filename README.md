@@ -93,10 +93,8 @@ npm run dev
 - [Priorizar composición sobre herencia]()
 - [Genéricos]()
 - [Decoradores]()
-- []()
-- []()
-- []()
-- []()
+- [Encadenamiento opcional]()
+- [Código fuente GitHub - Fin sección 3](https://github.com/Klerith/angular-introduccion-typescript)
 
 ---
 
