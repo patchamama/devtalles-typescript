@@ -1,6 +1,6 @@
 // Function destructuring
 
-interface Product {
+export interface Product {
   description: string
   price: number
 }
@@ -21,7 +21,9 @@ interface TaxCalculationOptions {
 }
 
 // function taxCalculation(options: TaxCalculationOptions): [number, number] {
-function taxCalculation(options: TaxCalculationOptions): [number, number] {
+export function taxCalculation(
+  options: TaxCalculationOptions
+): [number, number] {
   const { tax, products } = options
   let total = 0
   products.forEach(({ price }) => {
@@ -35,7 +37,7 @@ const tax = 0.15
 
 const [total, taxResult] = taxCalculation({ tax, products: shoppingCart })
 
-console.log(`Total: ${total}`)
-console.log(`Tax: ${taxResult}`)
+// console.log(`Total: ${total}`)
+// console.log(`Tax: ${taxResult}`)
 
-export {}
+// export { Product }
